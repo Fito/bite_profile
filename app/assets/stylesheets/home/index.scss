@@ -20,7 +20,8 @@ h1 {
 }
 
 .sign-in-panel {
-  padding: 10px;
+  width: 300px;
+  margin: 0px auto;
 }
 
 .button-container {
@@ -28,6 +29,10 @@ h1 {
 }
 
 .sign-in {
+  display: block;
+  text-align: center;
+  line-height: 46px;
+  vertical-align: middle;
   border: 1px solid;
   font-family: 'Tauri';
   font-size: 16px;
