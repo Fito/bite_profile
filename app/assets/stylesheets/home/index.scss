@@ -1,0 +1,49 @@
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  background-color: #9DADD4;
+}
+
+.main-content {
+  padding: 10px;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Tauri', sans-serif;
+  font-size: 90px;
+  color: #FFFFFF;
+}
+
+.sign-in-panel {
+  padding: 10px;
+}
+
+.button-container {
+  padding: 20px 40px;
+}
+
+.sign-in {
+  border: 1px solid;
+  font-family: 'Tauri';
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 3px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+
+  &.facebook {
+    border-color: #3B5998;
+    background-color: #3B5998;
+  }
+
+  &.twitter {
+    border-color: #4099FF;
+    background-color: #4099FF;
+  }
+}

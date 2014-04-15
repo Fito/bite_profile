@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: biteprofile_development
+  pool: 5
+  username: socialchorus
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: biteprofile_test
+  pool: 5
+  username: socialchorus
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: biteprofile_production
+  pool: 5
+  username: socialchorus
+  host: localhost
