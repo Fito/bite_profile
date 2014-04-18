@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20140416032744) do
     t.string   "name"
     t.string   "picture_url"
     t.string   "uid"
+    t.boolean  "active"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

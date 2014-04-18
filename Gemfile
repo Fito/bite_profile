@@ -8,6 +8,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'thin'
 
 gem 'omniauth-facebook'
+gem 'nail_polish', github: 'socialchorus/nail_polish'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

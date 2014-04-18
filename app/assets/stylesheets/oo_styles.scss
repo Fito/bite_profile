@@ -1,0 +1,47 @@
+.inner {
+  padding: 10px;
+}
+
+.row {
+  width: 100%;
+  clear: both;
+}
+
+.unit {
+  float: left;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.modal {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  z-index: 10100;
+  background-color: #4A789C;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#overlay {
+  z-index: 10000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent image-url('nail_polish/backgrounds/black-0_5.png') repeat;
+}

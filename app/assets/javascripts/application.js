@@ -10,4 +10,10 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require_tree .
+//= require namespace
+//= require vendor_base
+//= require nail_polish
+//= require nail_polish_widgets
+//= require ./initializer
+//= require_tree ./bite_profile
+//= require bite_profile_init

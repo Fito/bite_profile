@@ -9,10 +9,6 @@ body {
   padding: 10px;
 }
 
-.centered-content {
-  text-align: center;
-}
-
 h1 {
   font-family: 'Tauri', sans-serif;
   font-size: 90px;
@@ -25,22 +21,11 @@ h1 {
 }
 
 .button-container {
-  padding: 20px 40px;
+  padding: 10px 40px;
 }
 
 .sign-in {
   display: block;
-  text-align: center;
-  line-height: 46px;
-  vertical-align: middle;
-  border: 1px solid;
-  font-family: 'Tauri';
-  font-size: 16px;
-  color: #FFFFFF;
-  border-radius: 3px;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
 
   &.facebook {
     border-color: #3B5998;

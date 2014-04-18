@@ -5,4 +5,38 @@
     color: #FFFFFF;
   }
 
+  .user-board {
+    background-color: #4A789C;
+    box-shadow: 3px 3px 10px #DDD;
+    border-radius: 5px;
+    display: inline-block;
+  }
+}
+
+h4 {
+  font-family: 'Tauri', sans-serif;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+h5 {
+  font-family: 'Tauri', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: 'Tauri', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.diet-choice {
+  background-color: #85C1F5;
+  border-color: #85C1F5;
+}
+
+.ok-button {
+  background-color: #7FCA9F;
+  border-color: #7FCA9F;
 }

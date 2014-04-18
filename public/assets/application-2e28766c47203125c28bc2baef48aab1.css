@@ -1,0 +1,92 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Tauri);
+/* line 1, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  background-color: #9DADD4;
+}
+
+/* line 8, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+.main-content {
+  padding: 10px;
+}
+
+/* line 12, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+.centered-content {
+  text-align: center;
+}
+
+/* line 16, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+h1 {
+  font-family: 'Tauri', sans-serif;
+  font-size: 90px;
+  color: #FFFFFF;
+}
+
+/* line 22, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+.sign-in-panel {
+  width: 300px;
+  margin: 0px auto;
+}
+
+/* line 27, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+.button-container {
+  padding: 20px 40px;
+}
+
+/* line 31, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+.sign-in {
+  display: block;
+  text-align: center;
+  line-height: 46px;
+  vertical-align: middle;
+  border: 1px solid;
+  font-family: 'Tauri';
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 3px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+/* line 45, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+.sign-in.facebook {
+  border-color: #3B5998;
+  background-color: #3B5998;
+}
+/* line 50, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/home/index.scss */
+.sign-in.twitter {
+  border-color: #4099FF;
+  background-color: #4099FF;
+}
+/* line 2, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/panel/show.scss */
+.user-panel h3 {
+  font-family: 'Tauri', sans-serif;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+/* line 1, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/reset.scss */
+button {
+  border: none;
+}
+
+/* line 5, /Users/socialchorus/personal/biteprofile/app/assets/stylesheets/reset.scss */
+a {
+  text-decoration: none;
+  color: #000000;
+}
