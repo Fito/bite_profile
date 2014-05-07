@@ -1,1 +1,2 @@
-BiteProfile.Models.User = Backbone.Model.extend({});
+BiteProfile.Models.User = Backbone.Model.extend({
+});

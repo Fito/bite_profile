@@ -10,7 +10,6 @@ gem 'thin'
 gem 'omniauth-facebook'
 gem 'nail_polish', github: 'socialchorus/nail_polish'
 
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+group :development, :test do
+  gem 'rspec-rails'
 end

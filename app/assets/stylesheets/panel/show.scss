@@ -32,6 +32,7 @@ p {
 }
 
 .diet-choice {
+  position: relative;
   background-color: #85C1F5;
   border-color: #85C1F5;
 }
@@ -39,4 +40,20 @@ p {
 .ok-button {
   background-color: #7FCA9F;
   border-color: #7FCA9F;
+}
+
+.prohibition {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-image: url('prohibition.png')
+}
+
+.diet-choice {
+  width: 155px;
+  height: 50px;
 }

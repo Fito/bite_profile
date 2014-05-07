@@ -3,9 +3,9 @@ BiteProfile.Views.Panel = NailPolish.View.extend({
   className: 'panel',
 
   afterRender: function() {
-    var modal;
     if (!this.model.get('active')) {
-      modal = new BiteProfile.Views.ChoicesModal();
+      var dietExclusions = new BiteProfile.Models.DietExclusions();
+      var modal = new BiteProfile.Views.ChoicesModal({model: dietExclusions});
       modal.render();
     }
   }
